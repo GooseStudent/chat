@@ -2,8 +2,8 @@ import './styles.css';
 import { Login } from './js/Login.js';
 import { Chat } from './js/Chat.js';
 
-const API_URL = 'https://chat-backend.onrender.com';
-const WS_URL = 'wss://chat-backend.onrender.com';
+const API_URL = 'https://chat.onrender.com';
+const WS_URL = 'wss://chat.onrender.com';
 
 let currentUser = null;
 let ws = null;
